@@ -1,0 +1,22 @@
+{
+  "name": "pulp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.2",
+    "gulp-jshint": "~1.4.2",
+    "jshint-stylish": "~0.1.5",
+    "gulp-notify": "~0.6.2",
+    "percolator": "~1.4.3",
+    "nano": "~4.6.1",
+    "dotenv": "~0.2.4",
+    "gulp-nodemon": "~0.1.2"
+  }
+}
