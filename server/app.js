@@ -5,10 +5,9 @@ var Percolator = require('percolator').Percolator;
 var server = new Percolator();
 
 var nano = require('nano')(dbconfig);
-nano.db.create('animaldb');
 var animaldb = nano.db.use('animaldb');
 
-server.route('/hello', {
+server.route('/', {
   GET: function (req, res) {
     animaldb.list(function (err, body) {
       if (err) {
