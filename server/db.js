@@ -7,8 +7,8 @@ var dbconfig = function () {
   } else {
     url = 'http://';
   }
-  if (!!process.env.USERNAME) {
-    url = url + process.env.USERNAME + ":";
+  if (!!process.env.LOGIN) {
+    url = url + process.env.LOGIN + ":";
   }
   if (!!process.env.PASSWORD) {
     url = url + process.env.PASSWORD + "@";
